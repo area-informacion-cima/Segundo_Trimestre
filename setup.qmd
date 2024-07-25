@@ -8,4 +8,5 @@ library(lubridate)
 library(kableExtra)
 library(modelsummary)
 library(readxl)
+library(rmarkdown)
 ```
