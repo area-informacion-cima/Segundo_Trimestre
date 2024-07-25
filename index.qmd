@@ -1,7 +1,0 @@
-# CIMA - Cordillera Azul {.unnumbered}
-
-## **Contrato de Administración del Parque Nacional Cordillera Azul - CIMA** {.unnumbered}
-
-![](images/Capacitacion_Guardaparques_n.jpg)
-
-<https://github.com/area-informacion-cima/Reporte_PNCAZ.git>
