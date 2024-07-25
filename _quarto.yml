@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: _docs
+
+book:
+  title: "Primer Reporte Trimestral 2024"
+  reader-mode: true
+  date: "24/07/2024"
+  page-footer:
+   left: |
+     © Copyright 2024. CIMA - Centro de Conservación, Investigación y Manejo de Areas Naturales 
+     <a href="https://www.cima.org.pe/es">CIMA</a>.
+   right: |
+        Este libro fue construído en <a href="https://quarto.org/">Quarto</a> usando 
+        <a href="https://www.rstudio.com/categories/rstudio-ide/">RStudio IDE</a>.
+ 
+  site-url: https://area-informacion-cima.github.io/Segundo_Trimestre/
+ 
+  repo-url: https://github.com/area-informacion-cima/Segundo_Trimestre.git
+ 
+  repo-branch: main
+  
+  repo-actions: [issue]
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    
+    - part: compliance_assessment.qmd
+      chapters: 
+        - result_one.qmd
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - reporte_styles.css
+    code-link: true
+
+editor: visual

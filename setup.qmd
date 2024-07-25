@@ -1,0 +1,11 @@
+```{r septup, include=FALSE}
+# carar librerias
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(kableExtra)
+library(modelsummary)
+library(readxl)
+```
